@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zenox</title>
+  </head>
+  <body>
+    <img
+      src="assets/yellow-circle.svg"
+      class="yellow-circle-top scaleUp"
+      alt="circle"
+    />
+    <img
+      src="assets/violet-circle.svg"
+      class="violet-circle-top slideIn"
+      alt="circle"
+    />
+    <div class="tiny-white fadeIn"></div>
+    <div class="tiny-violet-circle fadeIn"></div>
+    <div class="tiny-pink-circle fadeIn"></div>
+    <div class="tiny-yellow-circle fadeIn"></div>
+    <div class="tiny-violet-circle1 fadeIn"></div>
+    <div class="tiny-pink-circle1 fadeIn"></div>
+    <div class="tiny-yellow-circle1 fadeIn"></div>
+    <img src="assets/pink-circle.svg" class="tiny-pink" alt="circle" />
+    <header class="header">
+      <img src="assets/logo.svg" alt="zenox" />
+      <ul>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+    <div class="hero">
+      <div class="hero__left">
+        <h1 class="fadeIn">Hello,My<span>__</span></h1>
+        <h1 class="fadeIn">Name is Ziad</h1>
+        <h1 class="fadeIn">I'm a Graphic Designer</h1>
+      </div>
+      <div class="hero__right">
+        <img class="scale" src="assets/hero.svg" alt="hero" />
+      </div>
+    </div>
+    <div class="skills">
+      <h1>
+        My Awesome
+        <span>
+          Services
+          <div class="line"></div>
+        </span>
+      </h1>
+      <div class="skills__container">
+        <div class="skill">
+          <img src="assets/Logo.svg" alt="logos" />
+          <h3>Logos</h3>
+        </div>
+
+        <div class="skill">
+          <img src="assets/Icon.svg" alt="logos" />
+          <h3>icons</h3>
+        </div>
+
+        <div class="skill">
+          <img src="assets/Illustration.svg" alt="logos" />
+          <h3>Illustrations</h3>
+        </div>
+      </div>
+    </div>
+    <div id="projects" class="projects">
+      <h1>
+        My
+        <span
+          >Projects
+          <div class="line-project"></div>
+        </span>
+      </h1>
+      <ul>
+        <li id="logos" class="visited">Logos</li>
+        <li id="icons">Illustrations</li>
+      </ul>
+      <div class="projects__container">
+        <div class="logos__container" id="logos-container">
+          <div class="logo">
+            <img src="assets/sellit.svg" alt="sellIt" />
+          </div>
+          <div class="logo">
+            <img src="assets/stories.svg" alt="sellIt" />
+          </div>
+          <div class="logo">
+            <img src="assets/dd.svg" alt="sellIt" />
+          </div>
+          <div class="logo">
+            <img src="assets/bird.svg" alt="sellIt" />
+          </div>
+          <div class="logo">
+            <img src="assets/devcon.svg" alt="sellIt" />
+          </div>
+          <div class="logo">
+            <img src="assets/astromium.svg" alt="sellIt" />
+          </div>
+        </div>
+
+        <div class="icons__container" id="icons-container">
+          <img src="assets/icon1.png" alt="icons" />
+          <img src="assets/icon2.png" alt="icons" />
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="contact">
+      <h1>
+        Get in
+        <span
+          >Touch
+          <div class="line-touch"></div>
+        </span>
+      </h1>
+      <form
+        target="_blank"
+        action="https://formsubmit.co/animezac38@gmail.com"
+        method="POST"
+      >
+        <input type="hidden" name="_subject" value="New Email Woo!" />
+        <input type="hidden" name="_next" value="https://www.facebook.com" />
+        <label class="slideRight" for="name">Name</label>
+        <input
+          class="slideRight"
+          type="text"
+          name="name"
+          placeholder="Name"
+          required
+        />
+        <label class="slideRight" for="name">Email Address</label>
+        <input
+          class="slideRight"
+          type="email"
+          name="email"
+          placeholder="Email Address"
+          required
+        />
+        <label class="slideRight" for="message">Message</label>
+        <textarea
+          class="slideRight"
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          aria-placeholder="Message"
+          required
+        ></textarea>
+        <button class="slideRight" type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="footer">
+      <div class="footer__top">
+        <h3>Mostefaoui Ziad</h3>
+        <p>Graphic Designer</p>
+      </div>
+      <div class="footer__bottom">
+        <h3>Made with 💖 and ☕ By Astromium | 2021 All Rights Reserved.</h3>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
